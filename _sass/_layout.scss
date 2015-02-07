@@ -1,6 +1,4 @@
-/**
- * Site header
- */
+/* header */
 
  header {
     display: block;
@@ -45,7 +43,6 @@
 /* main content */
 div.content {
     background: white;
-    padding: 70px 60px;
     margin-bottom: 60px;
 
     &.full-bleed { padding: 0; }
@@ -156,6 +153,10 @@ div.content {
     }
 }
 
+/* breaker */
+
+div.breaker { clear:both; }
+
 /* posts */
 div.posts div.end {
     padding: 40px;
@@ -174,10 +175,16 @@ a.post-excerpt {
         padding: 40px;
     }
 
+    div.end {
+        color: $brand-color;
+    }
+
     &:hover {
         color:white;
         background:#444;
         text-decoration:none;
+
+        div.end { color:white; }
     }
 
     div.title {
@@ -266,6 +273,8 @@ a.post-excerpt {
         }
     }
 }
+
+/* post */
 
 div.post {
     padding-bottom: 0em;
