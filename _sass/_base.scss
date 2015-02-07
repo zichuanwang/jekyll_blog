@@ -83,22 +83,13 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-a {
-    text-decoration: none;
-    color: $brand-color;
-    text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
+a { 
+    text-decoration: none; 
+    &:link, &:active { color: $brand-color; }
+    &:visited { color: $brand-color; }
+    &:link:hover, &:active:hover, &:visited:hover { text-decoration: underline; }
+    &:link:hover, &:active:hover { color: $brand-color; }
 }
-
-
 
 /**
  * Blockquotes

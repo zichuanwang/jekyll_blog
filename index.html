@@ -12,7 +12,7 @@ layout: default
                         <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
                     {% else %}
                         <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
-                            {{ post.date | date: "%b %Y" }}
+                            {{ post.date | date: "%b %d %Y" }}
                         </info>
                         {% if post.description %}
                             <span class="body">{{ post.description | strip_html }}</span>
