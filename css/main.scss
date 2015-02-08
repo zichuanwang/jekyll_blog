@@ -42,26 +42,11 @@ $on-laptop:        800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+    "base",
+    "layout",
+    "syntax-highlighting",
+    "resolution"
 ;
-
-@media screen and (min-width: 480px) {
-    body { zoom: 0.8; }
-}
-
-@media screen and (min-width: 680px) {
-    body { zoom: 0.9; width: 680px; }
-    header { margin: 0; }
-    footer { margin:5% 0; }
-}
-
-@media screen and (min-width: 780px) {
-    body { zoom: 1.3; }
-}
 
