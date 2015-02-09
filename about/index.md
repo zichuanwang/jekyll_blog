@@ -10,6 +10,11 @@ title: About
     </div>
 </div>
 
+## Contact me
+- email — zichuanw@usc.edu
+- phone — (213) 590-5069
+- wechat — 610955867
+
 ## Elsewhere
 
 You can find me on a variety of websites where my username is usually "zichuanwang".

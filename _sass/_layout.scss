@@ -33,8 +33,14 @@
             &:first-child { margin-left: 0; }
 
             a {
+            &:hover { text-decoration: none; }
                 font-size: $alt-font-size;
-                &.active { font-weight: bold; }
+                &.active { 
+                    background-color: $brand-color;
+                    color: white;
+                    border-radius: 200px;
+                    padding:0.5em 1.2em;
+                }
             }
         }
     }
@@ -102,9 +108,9 @@ div.content {
     }
 
     code {
-        background-color: #f6f9fa;
+        font-size: 12px;
+        background-color: #eee;
         color:black;
-        /*border: 1px solid #eaeaea;*/
         border-radius: 3px;
         padding:0 0.3em;
     }
@@ -302,7 +308,6 @@ div.post {
 
 div.avatar {
     width: 100%;
-    margin-bottom: 30px;
 
     img {
         display: inline-block;
