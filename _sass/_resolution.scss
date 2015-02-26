@@ -60,7 +60,10 @@
         margin-top: 0;
     }
 
-    header div.navigation ul { border-spacing: 20px 0; }
+    header div.navigation ul { 
+        border-spacing: 0; 
+        li { width: 25%; }
+    }
       
     h1,h2 { font-size: 160%; }
     h3 { font-size: 130%; }
