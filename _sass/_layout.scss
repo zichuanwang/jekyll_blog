@@ -4,10 +4,13 @@
     height: 44px;
     background-color: #333333;
     width: 100%;
+    margin-bottom: 60px;
     div.navigation {
+        height: inherit;
         display: table;
         margin: 0 auto;
         ul {
+            height: inherit;
             display: table-row;
             table-layout: fixed;
             width: 100%;
@@ -17,7 +20,7 @@
             border-spacing: 0;
             border-collapse: separate;
             li {
-                height: 44px;
+                height: inherit;
                 width: 200px;
                 display: table-cell;
                 list-style: none;
@@ -45,8 +48,6 @@ div.main {
 
 div.content {
     background: white;
-    margin-top: 60px;
-    margin-bottom: 60px;
     padding: 60px 60px;
 
     p {

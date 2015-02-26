@@ -55,7 +55,26 @@
         margin-top: 0;
     }
 
-    header div.navigation ul li { width: 80px; }
+    header {
+        margin: 0;
+        div.navigation ul li { width: 80px; }
+    }
+    footer {
+        background-color: #333333;
+        height: 44px;
+        color: white;
+        margin: 0;
+        div {
+            margin: 0 auto;
+            height: inherit;
+            display: table;
+            p { 
+                height: inherit;
+                vertical-align: middle; 
+                display:table-cell;
+            }
+        }
+    }
       
     h1,h2 { font-size: 160%; }
     h3 { font-size: 130%; }
