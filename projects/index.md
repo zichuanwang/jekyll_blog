@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+identifier: projects
 ---
 
 - [GlanceAt](http://glance.at) — Smart email assistant for iPhone. Pushing customizable notifications for filtered emails.

@@ -28,16 +28,16 @@
 }
 
 @media screen and (min-width: 480px) {
-    body { zoom: 0.8; }
+    div.main { zoom: 0.8; }
 }
 
 @media screen and (min-width: 680px) {
-    body { zoom: 0.9; width: 680px; }
+    div.main { zoom: 0.9; width: 680px; }
     header { margin: 0; }
 }
 
 @media screen and (min-width: 780px) {
-    body { zoom: 1.3; }
+    div.main { zoom: 1.3; }
 }
 
 /* medium-res devices (e.g. ipad and iphone) */
@@ -46,7 +46,6 @@
     body { color: black; }
     html.ios pre { overflow: scroll; }
     html.ios pre, html.ios code, html.ios tt { font-size:0.95em; }
-    header { margin:0 60px 0 45px; }
     header ul.navigation li a { font:inherit; font-size:14px; }
     div.content { font-size:1.2em; }
 }
@@ -54,17 +53,14 @@
 /* iPhone */
 @media only screen and (max-width: 750px) {
     header {
-        height: 120px;
-        margin:0 1em 0 0.8em;
-
-        h1 { float:none; }
-
-        ul.navigation {
-            float: right;
-            padding-left: 0.1em;
-            margin-top: 5px;
-        }
+        height: 44px;
     }
+
+    div.content {
+        margin-top: 0;
+    }
+
+    header div.navigation ul { border-spacing: 40px 0; }
       
     h1,h2 { font-size: 160%; }
     h3 { font-size: 130%; }

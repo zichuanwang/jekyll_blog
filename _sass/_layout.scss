@@ -1,41 +1,34 @@
 /* header */
 
  header {
-    display: block;
-    height: 100px;
-    margin: 0 60px;
-    h1 {
-        display: block;
-        height: 50px;
-        margin: 30px 0 0 0;
-        float: left;
-        a {
-            color: $text-color;
-            &:visited { color: $text-color; }
-            &:link:hover, &:active:hover, &:visited:hover {
-                color: darken($text-color, 10%);              
-                text-decoration: none;
-            }
-        }
-    }
-
-    ul.navigation {
-        display: block;
-        text-align: left;
-        float: right;
-        line-height: 50px;
-        margin-top: 35px;
-        font-family: $alt-font-family;
-        li {
-            display: inline-block;
-            list-style: none;
-            margin-left: 1em;
-            &:first-child { margin-left: 0; }
-
-            a {
-                font-size: $alt-font-size;
-                &.active { 
-                    font-weight: bold;
+    height: 44px;
+    background-color: #333333;
+    width: 100%;
+    div.navigation {
+        display: table;
+        margin: 0 auto;
+        ul {
+            display: table-row;
+            width: 100%;
+            text-align: center;
+            float: right;
+            font-family: $alt-font-family;
+            border-spacing: 100px 0;
+            border-collapse: separate;
+            li {
+                height: 44px;
+                display: table-cell;
+                list-style: none;
+                vertical-align: middle;
+                a {
+                    color: white;
+                    font-size: $alt-font-size;
+                    vertical-align: middle;
+                    &.active { 
+                        color: #bbbbbb;
+                        text-decoration:none;
+                    }
+                    &:link:hover, &:active:hover, &:visited:hover { text-decoration: none; }
                 }
             }
         }
@@ -43,10 +36,16 @@
 } 
 
 /* main content */
+
+div.main {
+    margin: 0 auto;
+}
+
 div.content {
     background: white;
+    margin-top: 60px;
     margin-bottom: 60px;
-    padding: 50px 60px;
+    padding: 60px 60px;
 
     p {
         margin-bottom: 20px;
@@ -188,11 +187,11 @@ a.post-excerpt {
     }
 
     &:hover {
-        color:white;
-        background:#444;
-        text-decoration:none;
+        color: white;
+        background: #444;
+        text-decoration: none;
 
-        div.end { color:white; }
+        div.end { color: white; }
     }
 
     div.title {
@@ -249,7 +248,7 @@ a.post-excerpt {
             opacity:0.5;
         }
 
-        border-bottom: none;
+        border: none;
     }
 }
 

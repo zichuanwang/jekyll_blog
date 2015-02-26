@@ -1,12 +1,13 @@
 ---
 layout: page
 title: About
+identifier: about
 ---
 
 <div class="avatar">
     <img src="/res/avatar.png" alt="" width="200" height="200">
     <div class="avatar_info">
-        <p>My name is Zichuan Wang. I'm a Chinese software developer living in Los Angeles with a passion for design and technology. I build native iOS apps and   backend applications. Currently I'm pursuing my master degree in computer science at USC. Download my résumé <a href="/res/resume.pdf">here</a>.</p>
+        <p>My name is Zichuan Wang. I'm a Chinese software developer living in Los Angeles with a passion for design and technology. I build native iOS apps and   backend applications. Currently I'm pursuing my master degree in computer science at USC. Download my résumé <a href="/resume.pdf">here</a>.</p>
     </div>
 </div>
 

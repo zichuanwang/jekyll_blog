@@ -1,10 +1,10 @@
 <header>
-
-  <h1 onclick="document.location.href='/';"><a href="/">Zichuan Wang</a></h1>
-  <ul class="navigation">
-    <li><a href="/projects/"{% if page.url contains "/projects/" %} class="active"{% endif %} title="Projects I am or was involved in">Projects</a></li>
-    <li><a href="/archive/"{% if page.url contains "/archive/" %} class="active"{% endif %} title="Archived articles">Archive</a></li>
-    <li><a href="/about/"{% if page.url contains "/about/" %} class="active"{% endif %}>About me</a></li>
-  </ul>
-
+    <div class="navigation">
+        <ul>
+            <li><a href="/"{% if page.identifier == "home" %} class="active"{% endif %} title="Home">Home</a></li>
+            <li><a href="/projects/"{% if page.identifier == "projects" %} class="active"{% endif %} title="Projects I am or was involved in">Projects</a></li>
+            <li><a href="/archive/"{% if page.identifier == "archive" %} class="active"{% endif %} title="Archived articles">Archive</a></li>
+            <li><a href="/about/"{% if page.identifier == "about" %} class="active"{% endif %}>About me</a></li>
+        </ul>
+    </div>
 </header>
