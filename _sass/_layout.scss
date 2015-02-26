@@ -9,15 +9,16 @@
         margin: 0 auto;
         ul {
             display: table-row;
+            table-layout: fixed;
             width: 100%;
             text-align: center;
             float: right;
             font-family: $alt-font-family;
-            border-spacing: 90px 0;
+            border-spacing: 0;
             border-collapse: separate;
             li {
                 height: 44px;
-                min-width: 100px;
+                width: 200px;
                 display: table-cell;
                 list-style: none;
                 vertical-align: middle;

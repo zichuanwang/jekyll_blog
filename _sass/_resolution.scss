@@ -33,7 +33,6 @@
 
 @media screen and (min-width: 680px) {
     div.main { zoom: 0.9; width: 680px; }
-    header { margin: 0; }
 }
 
 @media screen and (min-width: 780px) {
@@ -52,18 +51,11 @@
 
 /* iPhone */
 @media only screen and (max-width: 750px) {
-    header {
-        height: 44px;
-    }
-
     div.content {
         margin-top: 0;
     }
 
-    header div.navigation ul { 
-        border-spacing: 0; 
-        li { width: 25%; }
-    }
+    header div.navigation ul li { width:  }
       
     h1,h2 { font-size: 160%; }
     h3 { font-size: 130%; }
