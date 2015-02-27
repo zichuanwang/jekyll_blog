@@ -48,9 +48,14 @@ $on-laptop:        800px;
 }
 
 @mixin hover-focus {
-    &:hover, &:focus {
+    &:hover, &.hover_effect {
         @content;   
     }
+}
+
+.hover {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;        
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
