@@ -43,10 +43,8 @@ h2 {
  */
 a { 
     text-decoration: none; 
-    &:link, &:active { color: $brand-color; }
-    &:visited { color: $brand-color; }
-    &:link:hover, &:active:hover, &:visited:hover { text-decoration: underline; }
-    &:link:hover, &:active:hover { color: $brand-color; }
+    color: $brand-color;
+    &:hover { text-decoration: underline; }
 }
 
 
