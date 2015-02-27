@@ -53,11 +53,6 @@ $on-laptop:        800px;
     }
 }
 
-.hover {
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;        
-}
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "base",
