@@ -47,18 +47,9 @@ $on-laptop:        800px;
     }
 }
 
-@mixin hover-active {
-    &:hover {
+@mixin hover-focus {
+    &:hover, &:focus {
         @content;   
-        .no-touch {
-            @content;
-        }
-    }
-    &:active {
-        @content;  
-        .touch & {
-            @content;
-        }
     }
 }
 
